@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Impacto - EcoTrace</title>
+  <link rel="icon" href="folha-branca.png" type="image/x-icon">
+  <link rel="icon" href="folha-branca.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="folha-branca.png" alt="EcoTrace" width="22" height="22">
+        EcoTrace
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="modulos.html">Módulos IFRS</a></li>
+        <li><a href="metas.html">Metas & KPIs</a></li>
+        <li><a href="linha-do-tempo.html">Linha do Tempo</a></li>
+        <li><a href="calculadora.html" class="active">Impacto Pessoal</a></li>
+        <li><a href="realidade-aumentada.html">RA</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <a href="folha-branca.png" class="logo">
+        <a href="folha-branca.png" class="logo" style="display: flex; align-items: center; justify-content: center; text-decoration: none; color: inherit;">
+          <img src="mensurar-impacto-climatico.png" alt="EcoTrace" width="250" height="250" style="margin-right: 5px;">
+          <span></span>
+        </a>
+        <br>
+      
+    <section class="lucas">
+      
+      <h1>Calculadora de Impacto Pessoal </h1>
+      <br>
+      
+      <p>Descubra como suas escolhas impactam o meio ambiente e como você pode contribuir.</p>
+      <br>
+      <form id="calc-form">
+        <label for="km">Km/h dirigidos por semana:</label>
+        <input type="number" id="km" required>
+
+        <label for="energia">Consumo mensal de energia (kWh):</label>
+        <input type="number" id="energia" required>
+
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="resultado"></div>
+    </section>
+  </main>
+  <br><br><br><br><br><br><br><br><br>
+  <footer>
+    <p>&copy; 2025 EcoTrace. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
